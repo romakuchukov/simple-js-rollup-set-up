@@ -1,0 +1,17 @@
+{
+  "name": "landing-page",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "scss": "sass --watch style.scss:style.css",
+    "build": "rollup -c rollup.config.js",
+    "watch": "rollup -c -w",
+    "sync": "browser-sync --serveStatic . --files dist -w",
+    "dev": "yarn run scss & yarn run watch & yarn run sync"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-watch": "^4.3.1"
+  }
+}
