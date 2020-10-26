@@ -8,5 +8,5 @@ export default [{
     dir: './',
     entryFileNames: 'main.min.js'
   },
-  [node()]
+  plugins: [node()]
 }];

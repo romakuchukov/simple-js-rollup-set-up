@@ -1,5 +1,5 @@
 node_modules/
 .vscode/
-*.css
+*.css*
 *.min.js
 yarn*
